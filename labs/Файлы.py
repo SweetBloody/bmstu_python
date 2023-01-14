@@ -1,0 +1,5 @@
+infile = open('data1.txt','w')
+infile.write('привалень')
+infile.close()
+infile = open('data1.txt','r' )
+print(infile.readline())
